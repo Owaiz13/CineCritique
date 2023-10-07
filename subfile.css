@@ -1,0 +1,121 @@
+
+main {
+    margin: 20px auto;
+    max-width: 1300px;
+  }
+  
+.image-box {
+    width: 350px;
+    height: 450px;
+    background-color: #dddddd;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-box:hover {
+    transform: scale(1.2);
+  }
+
+  header {
+    background-color: #0b0320; /* Header background color */
+    color: #fff; /* Text color in the header */
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  .movie-info {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Background overlay with transparency */
+    padding: 5px;
+    color: #fff;
+    text-align: justify;
+    max-width: 100%; /* Adjust the maximum width as needed */
+}
+
+/* Additional styles for text in the movie information box */
+.movie-info h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.movie-info p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+/* ... Previous CSS styles ... */
+
+/* Style for the review box */
+.review-box {
+    position: absolute;
+    top: 50%; /* Adjust the top position as needed */
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Background overlay with transparency */
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    max-width: 80%; /* Adjust the maximum width as needed */
+    border-radius: 10px; /* Rounded corners for the review box */
+}
+
+/* Style for the review input textarea */
+#review {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.2); /* Background overlay for the textarea */
+    border: none;
+    border-radius: 5px; /* Rounded corners for the textarea */
+    color: #fff;
+}
+
+/* Style for the submit and reset buttons */
+.button-box {
+    margin-top: 10px;
+}
+
+#submit-button,
+#reset-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+#submit-button:hover,
+#reset-button:hover {
+    background-color: #555; /* Change color on hover */
+}
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Background overlay with transparency */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+/* Hover effect for the back button */
+.back-button:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* Darken the overlay on hover */
+}
+
+
+

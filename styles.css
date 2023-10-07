@@ -1,0 +1,66 @@
+body {
+  /* background-image: url("background.jpg"); */
+  background-color: #000000;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+main {
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-box {
+  width: 350px;
+  height: 550px;
+  background-color: #dddddd;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.image-box:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  background-color: #080317;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Rest of your CSS styles */
